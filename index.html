@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polaroid Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .product-item {
+      width: 30%;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .product-item img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Polaroid Store</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#wishlist">Wishlist</a></li>
+      <li><a href="#cart">Shopping Cart</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to our Polaroid Store!</h2>
+      <p>We offer a variety of Polaroid sizes and designs to capture your special moments.</p>
+    </section>
+    <section id="product">
+      <h2>Products</h2>
+      <div class="product">
+        <div class="product-item">
+          <img src="polaroid1.jpg" alt="Polaroid 1">
+          <h3>Polaroid 1</h3>
+          <p>$20</p>
+          <button>Add to Wishlist</button>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="polaroid2.jpg" alt="Polaroid 2">
+          <h3>Polaroid 2</h3>
+          <p>$25</p>
+          <button>Add to Wishlist</button>
+          <button>Add to Cart</button>
+        </div>
+        <!-- Add more product items as needed -->
+      </div>
+    </section>
+    <section id="wishlist">
+      <h2>Wishlist</h2>
+      <p>Your wishlist items will appear here.</p>
+    </section>
+    <section id="cart">
+      <h2>Shopping Cart</h2>
+      <p>Your shopping cart items will appear here.</p>
+    </section>
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <p>Customer reviews will appear here.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Contact details will appear here.</p>
+    </section>
+  </div>
+</body>
+</html>
